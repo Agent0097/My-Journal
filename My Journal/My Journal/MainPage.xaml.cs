@@ -13,5 +13,15 @@ namespace My_Journal
         {
             InitializeComponent();
         }
+
+        private void DisplayButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RecordButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

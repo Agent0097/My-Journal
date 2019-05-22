@@ -5,10 +5,14 @@
              x:Class="My_Journal.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label x:Name="mainMenuLabel"
+               Text="Main Menu"/>
+        <Button x:Name="displayButton"
+                Text="Display"
+                Clicked="DisplayButton_Clicked"/>
+        <Button x:Name="recordButton"
+                Text="Record"
+                Clicked="RecordButton_Clicked"/>
     </StackLayout>
 
 </ContentPage>
